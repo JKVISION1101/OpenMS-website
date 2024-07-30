@@ -21,7 +21,7 @@ $(document).ready(function(){
         slidesPerView: 1
       },
       1024: {
-        slidesPerView: 2
+        slidesPerView: 1
       },
       1260: {
         slidesPerView: 4
@@ -47,7 +47,7 @@ $(document).ready(function(){
        
       });
   });*/
-swiperSlides.forEach(slide => {
+   swiperSlides.forEach(slide => {
         const paragraphs = slide.querySelectorAll('p');
 
         slide.addEventListener('mouseover', () => {
